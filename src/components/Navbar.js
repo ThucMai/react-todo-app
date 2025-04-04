@@ -15,7 +15,7 @@ function Navbar() {
         {showHomeButton && (
           <h1 className="text-center">
             <a href="/" className="text-left">
-              Todo App Vip Pro
+              Todo App VP
             </a>
           </h1>
         )}
