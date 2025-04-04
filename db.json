@@ -1,0 +1,79 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admintest"
+    }
+  ],
+  "todos": [
+    {
+      "id": "3",
+      "title": "Run 15km",
+      "status": "Not Done",
+      "user_id": 2
+    },
+    {
+      "id": "3",
+      "title": "Eat 5 fruits",
+      "status": "Not Done",
+      "user_id": 2
+    },
+    {
+      "title": "Chạy 5 km",
+      "status": "Done",
+      "user_id": "1",
+      "updated": "2025-04-04T07:38:29.186Z",
+      "id": "b611"
+    },
+    {
+      "id": "89c6",
+      "title": "Làm hết 500 bài code senior",
+      "status": "Not Done",
+      "user_id": "1",
+      "created": "2025-04-04T07:29:13.567Z"
+    },
+    {
+      "id": "4f56",
+      "title": "Thử thách ăn hết 3 tô cơm",
+      "status": "Not Done",
+      "user_id": "1",
+      "created": "2025-04-04T07:29:49.710Z"
+    },
+    {
+      "id": "0f91",
+      "title": "Ăn 5 ly chè bí đỏ trong 2 phút",
+      "status": "Not Done",
+      "user_id": "1",
+      "created": "2025-04-04T07:30:20.095Z"
+    },
+    {
+      "title": "Ngủ 8 tiếng vào thứ 7",
+      "status": "Done",
+      "user_id": "1",
+      "updated": "2025-04-04T07:31:51.117Z",
+      "id": "b8da"
+    },
+    {
+      "title": "Rửa xe Honda cb 650r",
+      "status": "Done",
+      "user_id": "1",
+      "updated": "2025-04-04T07:31:44.072Z",
+      "id": "2e37"
+    },
+    {
+      "title": "Thay nhớt xe CB650R",
+      "status": "Done",
+      "user_id": "1",
+      "updated": "2025-04-04T07:31:38.586Z",
+      "id": "b491"
+    },
+    {
+      "id": "31d7",
+      "title": "Ăn 500 cái xúc xích",
+      "status": "Not Done",
+      "user_id": "1",
+      "created": "2025-04-04T08:35:13.377Z"
+    }
+  ]
+}

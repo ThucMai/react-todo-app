@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+.todo-container {
+  display: inline-block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+  width: 80vw;
+}
+.todo-container ul {
+  width: 100%;
+}
+.todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  margin-top: 10px;
+}
+.login-input {
+  width: 250px;
+}
+.search-text {
+  margin: unset;
+  margin-right: 10px;
+}
+.a.disabled {
+  pointer-events: none;
+  cursor: default;
+}
+.page-link.active {
+  pointer-events: none;
+  cursor: default;
+}
+
+.text-list {
+  color: red;
+}
+.text-list.Done {
+  color: green!important;
+}
+.add-todo-input {
+  width: 25%;
+}
+
+.pagination .active {
+  background-color: #007bff;
+  color:  rgb(255, 255, 255);
+}
+
+.username {
+  font-family: 'Courier New', Courier, monospace;
+  margin-right: 10px;
+}
+
+.logout-button {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  border: 1px solid var(--text-color);
+  border-radius: 12px;
+}
+
+
+/* theme css */
+/* Default Light Theme */
+.light {
+  --bg-color: white;
+  --text-color: black;
+  --btn-bg: #f8f9fa;
+  --btn-text: black;
+}
+
+/* Dark Theme */
+.dark {
+  --bg-color: #121212;
+  --text-color: white;
+  --btn-bg: #333;
+  --btn-text: white;
+}
+
+/* Apply to body */
+body {
+  background-color: var(--bg-color)!important;
+  color: var(--text-color)!important;
+  transition: background 0.3s ease-in-out;
+}
+
+/* Button styling */
+.btn-theme {
+  background-color: var(--btn-bg);
+  color: var(--btn-text);
+  border: 1px solid var(--btn-text);
+  padding: 10px 15px;
+  cursor: pointer;
+}
